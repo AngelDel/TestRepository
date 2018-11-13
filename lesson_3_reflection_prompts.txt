@@ -7,3 +7,10 @@ As a back-up, or because you are pushing commits from different computers, or be
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may not want the remote changes immediately, as they may cause conflicts with your local changes. Seems like a good idea to finish your local changes first to a point of stability, then pull the changes and deal with the possible conflicts afterwards.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+-Forks are a copy of someone else's repository. Can only be remote (online). Use this when you want to make changes to a repository when you don't have access to the original repository.
+-Clones, although usually used to clone a remote (online) repository to a local one, it can also be used local-local (to make a copy of a repository in your computer to somewhere else in your computer). Use this for collaborating.
+-Branches can be local or remote (online). These can be seen as a side track in which you can change code without changing the master branch. Use this for creating new features/bug fixes/experimenting, then add their content  to the master branch via merging.
